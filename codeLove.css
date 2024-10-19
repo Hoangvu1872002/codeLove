@@ -65,7 +65,12 @@ body {
  .name{
  font-family: 'Mr Dafoe';
  font-weight: 100;
-  margin: 0;
+  margin: 0; 
+  /* display: flex; */
+  flex-direction: column;
+  display: flex; /* Bật Flexbox */
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
   font-size: 2.5em;
   margin-top: -0.6em;
   color: white;
