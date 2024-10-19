@@ -48,7 +48,6 @@ body {
 	transform: rotate(45deg);
 	transform-origin: 100% 100%;
 }
-
 @keyframes animate {
 	0% {
 		transform: scale(1);
